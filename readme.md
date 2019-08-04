@@ -15,11 +15,11 @@ python3 init.py #runs on port 8080
 
 routes
 All returns json output
-    - get - / <!-- gets all connections -->
-    - get - /connections <!-- gets all connections -->
-    - post - /connections <!-- no db currently just saves it on array so refreshes each time server restarts -->
-    - get - /check/:host <!-- checks ping status with host alone uses nc module instead of ping so we can use ports-->
-    - gets - /check/:host/port/:port_number <!-- to check with port -->
+    1. get / *gets all connections*
+    2. get /connections *gets all connections*
+    3. post /connections *no db currently just saves it on array so refreshes each time server restarts*
+    4. get /check/:host *checks ping status with host alone uses nc module instead of ping so we can use port*
+    5. gets - /check/:host/port/:port_number *to check with port*
 
 
     
